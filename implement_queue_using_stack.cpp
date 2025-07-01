@@ -8,7 +8,7 @@ public:
     void enqueue(int x) {
         s1.push(x);
     }
-    
+
     int dequeue() {
         if (s2.empty()) {
             while (!s1.empty()) {

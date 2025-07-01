@@ -15,7 +15,7 @@ void printReverse(Node* head){
     cout<<  head->data<< " ";
 }
 
-int main(){
+int main(){ 
     int n;
     cout << "Enter number of elements: ";
     cin >> n;

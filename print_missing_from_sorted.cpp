@@ -11,6 +11,7 @@ void printMissingValues(const vector<int>& arr) {
     cout << endl;
 }
 
+
 int main() {
     vector<int> arr = {1, 2, 4, 7, 10};
     printMissingValues(arr);  // Output: 3 5 6 8 9

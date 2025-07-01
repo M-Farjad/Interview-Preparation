@@ -14,7 +14,6 @@ void firstNonRepeatingChar(string s) {
             return;
         }
     }
-
     cout << "No non-repeating character found." << endl;
 }
 

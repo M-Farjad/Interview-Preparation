@@ -10,6 +10,7 @@ void moveZeros(vector<int>& arr) {
     while (index < arr.size()) arr[index++] = 0;
 }
 
+
 int main() {
     vector<int> arr = {0, 1, 9, 8, 0, 2, 0, 3};
     moveZeros(arr);

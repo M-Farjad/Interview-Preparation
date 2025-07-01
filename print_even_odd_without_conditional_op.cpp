@@ -10,3 +10,4 @@ int main() {
     checkEvenOdd(6);  // Output: Even
     return 0;
 }
+

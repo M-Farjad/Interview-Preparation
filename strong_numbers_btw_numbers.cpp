@@ -18,6 +18,7 @@ bool isStrongNumber(int num) {
     return sum == num;
 }
 
+
 // Find all strong numbers in range
 void findStrongNumbers(int start, int end) {
     for (int i = start; i <= end; i++) {

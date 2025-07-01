@@ -18,3 +18,4 @@ int main() {
     for (int num : arr) cout << num << " ";  // Output: 10 20 3 1 5
     return 0;
 }
+

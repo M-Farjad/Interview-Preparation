@@ -16,6 +16,7 @@ int findSecondHighest(vector<int>& arr) {
     return second;
 }
 
+
 int main() {
     vector<int> arr = {12, 35, 1, 10, 34, 1};
     cout << "Second highest: " << findSecondHighest(arr) << endl;  // Output: 34

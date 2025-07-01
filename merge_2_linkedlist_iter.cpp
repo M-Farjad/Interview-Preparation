@@ -12,6 +12,7 @@ ListNode* mergeTwoLists(ListNode* l1, ListNode* l2) {
         }
         tail = tail->next;
     }
+    
     tail->next = l1 ? l1 : l2;
     return dummy.next;
 }

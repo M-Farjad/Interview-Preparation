@@ -13,7 +13,6 @@ bool canFormStr2FromStr1(string str1, string str2) {
             return false;
         freq[c]--;
     }
-
     return true;
 }
 

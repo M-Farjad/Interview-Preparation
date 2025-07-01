@@ -12,7 +12,6 @@ int sumOfDigits(int num) {
     }
     return num;
 }
-
 int main() {
     cout << sumOfDigits(9876) << endl;  // Output: 3
     return 0;

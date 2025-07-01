@@ -8,6 +8,7 @@ void leftShift(vector<int>& arr) {
     for (int i = 0; i < arr.size() - 1; i++) {
         arr[i] = arr[i + 1];
     }
+    
     arr[arr.size() - 1] = first;
 }
 

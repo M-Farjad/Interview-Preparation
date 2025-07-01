@@ -15,6 +15,7 @@ bool isBalanced(string expr) {
                 return false;
         }
     }
+    
     return s.empty();
 }
 

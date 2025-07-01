@@ -15,8 +15,9 @@ public:
     }
     
     void pop() {
-        if (!q.empty())
+        if (!q.empty()){
             q.pop();
+        }
     }
     
     int top() {

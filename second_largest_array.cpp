@@ -10,3 +10,4 @@ int secondLargest(int arr[], int n) {
     }
     return (second == INT_MIN) ? -1 : second;
 }
+

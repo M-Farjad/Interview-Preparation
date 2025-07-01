@@ -10,3 +10,4 @@ int main() {
     cout << power(2, 5); // Output: 32
     return 0;
 }
+

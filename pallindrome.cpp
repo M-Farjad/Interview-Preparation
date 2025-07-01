@@ -12,6 +12,7 @@ bool isPalindrome(const string& str) {
     return true;
 }
 
+
 int main() {
     string str = "madam";
     cout << (isPalindrome(str) ? "Palindrome" : "Not a Palindrome") << endl;  // Output: Palindrome

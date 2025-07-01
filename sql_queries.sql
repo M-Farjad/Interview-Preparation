@@ -59,6 +59,14 @@ SELECT emp_id, salary
 FROM employees
 WHERE salary BETWEEN 4000 AND 6000;
 
+-- 👉 Explanation:
+-- SYSDATE → current date
+-- ADD_MONTHS(SYSDATE, -n) → date n months ago
+-- hire_date >= → employees hired in last n months
+SELECT *
+FROM employees
+WHERE hire_date >= ADD_MONTHS(SYSDATE, -n);
+
 -- like
 -- Select employees with names starting with 'J'
 SELECT name FROM employees WHERE name LIKE 'J%';
@@ -76,6 +84,8 @@ SELECT DISTINCT department_id FROM employees;
 
 -- Limit
 SELECT * FROM employees LIMIT 5;
+-- skip first 1 record
+SELECT * FROM employees LIMIT 5 OFFSET 1;
 
 -- Add a column
 ALTER TABLE employees ADD COLUMN age INT;

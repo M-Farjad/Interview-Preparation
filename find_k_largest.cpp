@@ -8,8 +8,9 @@ int kthLargest(vector<int>& arr, int k) {
 
     for (int num : arr) {
         minHeap.push(num);
-        if (minHeap.size() > k)
+        if (minHeap.size() > k){
             minHeap.pop();
+        }
     }
     return minHeap.top();
 }

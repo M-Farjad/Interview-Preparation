@@ -33,6 +33,7 @@ string infixToPostfix(string infix) {
         postfix += s.top();
         s.pop();
     }
+    
     return postfix;
 }
 
